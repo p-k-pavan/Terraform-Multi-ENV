@@ -12,11 +12,12 @@ The infrastructure is environment-specific, allowing separate configurations for
 - `prod.tfvars` – Production environment
 - `staging.tfvars` – Staging environment
 
-To deploy a specific environment, use:
+---
 
-```bash
-terraform apply -var-file="dev.tfvars"
-````
+
+## 📊 Architecture Diagram
+
+![Terraform AWS Environment Diagram](diagram.png)
 
 ---
 
@@ -85,3 +86,4 @@ Make sure the `backend.tf` is correctly configured to use:
 This is critical for team-based infrastructure management.
 
 ---
+
