@@ -81,7 +81,6 @@ terraform apply -var-file="dev.tfvars"
 Make sure the `backend.tf` is correctly configured to use:
 
 * **S3** – For storing the Terraform state file
-* **DynamoDB** – For state locking and consistency during concurrent operations
 
 This is critical for team-based infrastructure management.
 
